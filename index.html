@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Attendance 75% Calculator</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    label, input, button { margin: 5px; }
+    .row { margin-bottom: 10px; }
+    .output { white-space: pre-wrap; background: #f0f0f0; padding: 10px; border-radius: 4px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Attendance 75% Calculator</h1>
+  <label for="endMonth">Last month with classes:</label>
+  <input type="month" id="endMonth" value="2025-12" />
+
+  <h2>Subjects</h2>
+  <div id="subjects"></div>
+  <button id="addSub">Add Subject</button>
+
+  <br/><button id="calc">Calculate</button>
+
+  <div class="output" id="output"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
